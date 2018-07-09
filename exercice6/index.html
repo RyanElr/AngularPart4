@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.min.js"></script>
+    <title>Exercice6</title>
+  </head>
+  <body ng-app>
+    <button type="button" name="buttonshow" ng-click="paragraph1=true; paragraph2=false">Premier paragraphe</button><button type="button" name="buttonshow" ng-click="paragraph1=false; paragraph2=true">Second paragraphe</button>
+    <p ng-show="paragraph1" show-hide="paragraph1">T'es sur le premier paragraphe!</p>
+    <p ng-show="paragraph2" show-hide="paragraph2">T'es sur le second paragraphe!</p>
+  </body>
+</html>
